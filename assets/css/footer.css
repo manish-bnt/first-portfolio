@@ -1,0 +1,26 @@
+/* Footer section  */
+
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 1.5rem;
+}
+
+.footer-wrap {
+  display: inline-block;
+  color: var(--textColor);
+  line-height: 2;
+  font-size: var(--parafont);
+}
+
+.fa-envelope {
+  color: #fff;
+}
+
+.footer-wrap a {
+  text-decoration: none;
+}
+
+.footer-mail {
+  color: var(--textColor);
+}

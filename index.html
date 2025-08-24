@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manufacturing+Consent&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container head-container">
+        <div class="logo-container">
+          <img src="assets/images/Portfolio-logo (2).png" alt="logo" />
+        </div>
+        <div class="menu-wrap">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="nav">
+          <a href="#">Home</a>
+          <a href="#home-container">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+          <a href="#services">Services</a>
+          <a href="/assets/docs/manish-bio-data.pdf" download>
+            <span class="download-icon"
+              ><i class="fa-solid fa-circle-down"></i
+            ></span>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About and Home section  -->
+
+      <section class="hero">
+        <div id="home-container" class="container">
+          <div class="hero-text">
+            <h4>
+              <i>Hello,</i> I'm Manish Basnet - Frontened
+              Developer
+            </h4>
+            <br />
+            <p>
+              I create responsive websites using HTML, CSS, JavaScript, and
+              React I enjoy turning ideas into functional, user-friendly web
+              pages and am constantly learning new skills to improve my work.
+              I’m excited to build projects that make an impact and keep growing
+              as a developer. Let’s create something great together.
+            </p>
+            <div class="cta-div">
+              <button class="cta">View Projects</button>
+              <a href="/assets/docs/manish-bio-data.pdf" download>
+                <button class="cta">Download CV</button>
+              </a>
+            </div>
+          </div>
+          <div class="user-image-container">
+            <img src="assets/images/user-image.avif" alt="user-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section  -->
+
+      <section id="services" class="container">
+        <p>My Services</p>
+        <table class="service-table">
+          <thead>
+            <tr>
+              <th>Services</th>
+              <th>Price</th>
+              <th>Duration</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Landing Page Desing</td>
+              <td>$10</td>
+              <td>3 Days</td>
+            </tr>
+            <tr>
+              <td>Responsive Web Design</td>
+              <td>$20</td>
+              <td>3 Days</td>
+            </tr>
+            <tr>
+              <td>Portfolio Websites</td>
+              <td>$50</td>
+              <td>7 Days</td>
+            </tr>
+            <tr>
+              <td>Small Business Websites</td>
+              <td>$100</td>
+              <td>10 Days</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Skills section  -->
+      <section id="skills" class="container">
+        <div class="technologies">
+          <h4>What I Do</h4>
+          <p>💻 Technologies & Tools I use everyday</p>
+        </div>
+        <div class="frontened">
+          <p class="skills-title">Frontened</p>
+          <div class="cards-wrap">
+            <div class="frontened-card skills-card bs-html">
+              <i class="fa-brands fa-html5"></i>
+              <h4 class="caption">HTML</h4>
+            </div>
+            <div class="frontened-card skills-card bs-css">
+              <i class="fa-brands fa-css3"></i>
+              <h4 class="caption">CSS</h4>
+            </div>
+            <div class="frontened-card skills-card bs-js">
+              <i class="fa-brands fa-js"></i>
+              <h4 class="caption">Javascript</h4>
+            </div>
+            <div class="frontened-card skills-card bs-react">
+              <i class="fa-brands fa-react"></i>
+              <h4 class="caption">React</h4>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="tools">
+          <p class="skills-title">Tools</p>
+          <div class="cards-wrap">
+            <div class="skills-card">
+              <div class="vs-code-wrap">
+                <img src="/assets/svg/Visual_Studio_code.svg" alt="vs-code" />
+              </div>
+              <h4 class="caption">VS Code</h4>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact" class="container">
+        <h1>Get in Touch</h1>
+        <form
+          action="https://formspree.io/f/xnnzrrpa"
+          method="post"
+          class="contact-form"
+        >
+          <input type="text" placeholder="Your Name" required />
+          <input type="text" placeholder="Your Email" required />
+          <textarea
+            name="userMsg"
+            id="userMsg"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button class="form-submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer section load  -->
+    <div class="footer-section"></div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

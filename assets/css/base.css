@@ -1,0 +1,5 @@
+:root {
+  --textColor: #fff;
+  --iconSize:1.5rem;
+  --parafont:clamp(1rem, 1vw + 0.5rem, 1.2rem);
+}
