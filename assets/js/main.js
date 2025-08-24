@@ -19,6 +19,13 @@ discardIcon.addEventListener("click", () => {
   menuIcon.style.display = "block";
 });
 
+navbar.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    headContainer.style.height = "";
+    discardIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  });
+});
 // footer load
 
 document.addEventListener("DOMContentLoaded", () => {
