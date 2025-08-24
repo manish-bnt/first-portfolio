@@ -70,7 +70,6 @@ header {
   font-size: var(--parafont);
 }
 
-
 .nav a::after {
   content: "";
   position: absolute;
@@ -87,6 +86,11 @@ header {
 }
 
 .nav a:hover::after {
+  height: 100%;
+  border-radius: 7px;
+}
+
+.nav a.activeNavigation::after {
   height: 100%;
   border-radius: 7px;
 }

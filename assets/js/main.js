@@ -26,6 +26,15 @@ navbar.querySelectorAll("a").forEach((link) => {
     menuIcon.style.display = "block";
   });
 });
+
+navbar.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navbar.querySelectorAll("a").forEach((link) => {
+      link.classList.remove("activeNavigation");
+    });
+    link.classList.add("activeNavigation");
+  });
+});
 // footer load
 
 document.addEventListener("DOMContentLoaded", () => {
